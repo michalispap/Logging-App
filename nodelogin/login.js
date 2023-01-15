@@ -24,7 +24,7 @@ app.use('/auth', apiLimiter);
 const connection = mysql.createConnection({
 	host     : 'localhost',
 	user     : 'root',
-	password : 'YNWA_1892',
+	password : 'password',
 	database : 'GDPR'
 });
 
